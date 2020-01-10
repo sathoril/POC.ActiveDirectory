@@ -22,7 +22,7 @@ namespace POC.ActiveDirectory.Controllers
         public UsuarioController(ILogger<UsuarioController> logger, IAuthenticationService authService)
         {
             _logger = logger;
-            this.ldapHost = "191.1.1.81";
+            this.ldapHost = "conexao LDAP aqui";
             this.authService = authService;
         }
 
