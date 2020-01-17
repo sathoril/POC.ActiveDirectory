@@ -4172,7 +4172,7 @@
       ]
     },
     "System.Net.Http/4.1.0": {
-      "sha512": "ULq9g3SOPVuupt+Y3U+A37coXzdNisB1neFCSKzBwo182u0RDddKJF8I5+HfyXqK6OhJPgeoAwWXrbiUXuRDsg==",
+      "sha512": "QxY0x5iEkwaZqjPJC1EoWrjWnDPEcu7nf69tnfOx32BNb3V5cLvHwDOZDC0Vbx6MGGVOpnSHUtP0UY0lvtCvSg==",
       "type": "package",
       "path": "system.net.http/4.1.0",
       "files": [
@@ -7020,23 +7020,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bfcorrea\\.nuget\\packages\\": {},
+    "C:\\Users\\wlino\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
+      "projectUniqueName": "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
       "projectName": "POC.ActiveDirectory",
-      "projectPath": "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
-      "packagesPath": "C:\\Users\\bfcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\obj\\",
+      "projectPath": "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
+      "packagesPath": "C:\\Users\\wlino\\.nuget\\packages\\",
+      "outputPath": "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bfcorrea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wlino\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

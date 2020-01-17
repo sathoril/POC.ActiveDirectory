@@ -28,6 +28,7 @@ namespace POC.ActiveDirectory
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.Configure<LdapConfig>(Configuration.GetSection("Ldap"));
             services.AddScoped<IAuthenticationService, LdapAuthenticationService>();
             services.AddMvc(option => option.EnableEndpointRouting = false)
@@ -43,6 +44,11 @@ namespace POC.ActiveDirectory
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
 
             app.UseRouting();
 

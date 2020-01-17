@@ -13,7 +13,7 @@ namespace POC.ActiveDirectory.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class UsuarioController : ControllerBase
+    public class UsuarioController : Controller
     {
         private readonly IAuthenticationService authService;
         private readonly ILogger<UsuarioController> _logger;
@@ -22,21 +22,23 @@ namespace POC.ActiveDirectory.Controllers
         public UsuarioController(ILogger<UsuarioController> logger, IAuthenticationService authService)
         {
             _logger = logger;
-            this.ldapHost = "conexao LDAP aqui";
+            this.ldapHost = "domhcor.local";
             this.authService = authService;
         }
 
         [HttpPost]
         [Route("autenticar")]
-        public ActionResult AutenticarNovell([FromBody]LoginViewModel viewModel)
+        public ActionResult AutenticarNovell([FromForm]LoginViewModel viewModel)
         {
             try
             {
                 using (var adConnection = new LdapConnection())
                 {
+                    string usernameToPassLdap = $"{viewModel.login}@{ldapHost}";
                     adConnection.Connect(this.ldapHost, LdapConnection.DEFAULT_PORT);
 
-                    adConnection.Bind(LdapConnection.Ldap_V3, viewModel.login, viewModel.senha);
+
+                    adConnection.Bind(LdapConnection.Ldap_V3, usernameToPassLdap, viewModel.senha);
 
                     return Ok("Usuário autenticado com sucesso");
                 }

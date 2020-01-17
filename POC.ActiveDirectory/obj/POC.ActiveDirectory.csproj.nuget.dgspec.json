@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj": {}
+    "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj": {}
   },
   "projects": {
-    "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj": {
+    "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
+        "projectUniqueName": "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
         "projectName": "POC.ActiveDirectory",
-        "projectPath": "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
-        "packagesPath": "C:\\Users\\bfcorrea\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos-devops\\POC.ActiveDirectory\\POC.ActiveDirectory\\obj\\",
+        "projectPath": "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\POC.ActiveDirectory.csproj",
+        "packagesPath": "C:\\Users\\wlino\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosWilliam\\projetosLocais\\POC.ActiveDirectory\\POC.ActiveDirectory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\bfcorrea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wlino\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
